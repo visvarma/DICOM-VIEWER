@@ -1,9 +1,9 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import DicomViewer from '../components/DicomViewer.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <DicomViewer />
   </main>
 </template>

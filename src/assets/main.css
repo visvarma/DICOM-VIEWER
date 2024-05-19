@@ -1,33 +1,22 @@
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
 }
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
-}
-
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
-}
-
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+:root {
+  --background-color: #1a1a1d;
+  --viewport-bg: #2b2b2e;
+  --border-color: #444;
+  --button-bg: #1a202c;
+  --button-text: #e0e0e0;
+  --button-border: #555;
+  --button-hover-bg: #38a169c6;
+  --button-hover-text: #ffffff;
+  --button-active-bg: #38a169;
+  --button-active-text: #ffffff;
+  --navbar-background: #000;
 }

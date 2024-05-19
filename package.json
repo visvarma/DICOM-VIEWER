@@ -11,6 +11,14 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@cornerstonejs/calculate-suv": "^1.1.0",
+    "@cornerstonejs/core": "^1.73.0",
+    "@cornerstonejs/dicom-image-loader": "^1.74.1",
+    "@cornerstonejs/streaming-image-volume-loader": "^1.73.0",
+    "@cornerstonejs/tools": "^1.73.0",
+    "dcmjs": "^0.33.0",
+    "dicom-parser": "^1.8.21",
+    "dicomweb-client": "^0.10.4",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },

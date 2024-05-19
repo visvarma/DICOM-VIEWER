@@ -1,7 +1,9 @@
-<script setup></script>
+<script setup>
+import HomeView from './views/HomeView.vue'
+</script>
 
 <template>
-  <h1>Dicom Viewer</h1>
+  <HomeView />
 </template>
 
 <style scoped></style>
