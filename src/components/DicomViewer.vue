@@ -36,14 +36,6 @@ const volumeId = 'cornerstoneStreamingImageVolume:CT_VOLUME_ID'
 
 const viewportIds = ['CT_SAGITTAL', 'CT_AXIAL', 'CT_CORONAL']
 
-// const activatePan = () => activateTool('PanTool', toolGroupId)
-// const activateZoom = () => activateTool('ZoomTool', toolGroupId)
-// const activateScroll = () => activateTool('StackScrollMouseWheelTool', toolGroupId)
-
-// axialViewport.value.oncontextmenu = () => false
-// sagittalViewport.value.oncontextmenu = () => false
-// coronalViewport.value.oncontextmenu = () => false
-
 onMounted(() => {
   const axialViewportElement = axialViewport.value.viewportElement
   const sagittalViewportElement = sagittalViewport.value.viewportElement
@@ -60,7 +52,6 @@ onMounted(() => {
     })
     createToolGroup(viewportIds, renderingEngineId, toolGroupId, volumeId)
   }
-
   initVolume()
 })
 
