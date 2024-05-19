@@ -77,8 +77,7 @@ export async function setupVolume({
 }
 
 export function createToolGroup(viewportIds, renderingEngineId, toolGroupId, volumeId) {
-  const { LengthTool, ToolGroupManager, StackScrollMouseWheelTool, ZoomTool, PanTool } =
-    cornerstoneTools
+  const { ToolGroupManager, StackScrollMouseWheelTool, ZoomTool, PanTool } = cornerstoneTools
 
   cornerstoneTools.addTool(ZoomTool)
   cornerstoneTools.addTool(StackScrollMouseWheelTool)
